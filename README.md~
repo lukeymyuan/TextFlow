@@ -1,0 +1,12 @@
+### Important files:
+
+#### app.py
+This is the file that runs the server
+
+#### templates/index.html
+#### static/css/style.css
+#### static/js/script.js
+
+### Important commands:
+
+gunicorn --bind

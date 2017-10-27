@@ -1,0 +1,12 @@
+from flask import Flask, render_template, url_for, redirect
+from db import execute
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+        data = db.execute("SELECT * from document")
+	return render_template("index.html", data=data)
+
+
+if __name__ == "__main__":
+	app.run(host='0.0.0.0')
