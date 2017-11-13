@@ -10,7 +10,7 @@
   <!-- Bootstrap core CSS and javaScript-->
   <link href="{{url_for('static',filename='css/bootstrap.min.css')}}" rel="stylesheet">
   <script src="{{url_for('static',filename='js/jquery.min.js')}}"></script>
-
+  <script src="{{url_for('static',filename='js/scripts.js')}}"></script>
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
@@ -32,12 +32,11 @@
           <strong>Generate your text</strong>
         </h2>
       <hr class="divider">
-
       <div class="form-group col-lg-12">
-        <form class="form-inline">
+        <form class="form-inline" name="query">
           <label class="text-heading mr-sm-2">Preference</label>
           <select class="text-heading custom-select mb-2 mr-sm-2 mb-sm-0" id="sourceSelect">
-                <option selected>Source</option>
+                <option value="0" selected>Source</option>
                 <option value="1">Books</option>
                 <option value="2">Papers</option>
                 <option value="3">Twitter</option>
@@ -56,6 +55,9 @@
       </div>
       <div class="form-group col-lg-12">
         <button type="submit" class="btn btn-secondary" id="showSources">Show sources</button>
+      </div>
+      <div class="form-group col-lg-12">
+        <input type="text" class="text-heading form-control mb-2 mr-sm-2 mb-sm-0" id="lengthInput" placeholder="Length">
       </div>
     </div>
 
