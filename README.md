@@ -3,10 +3,6 @@
 #### app.py
 This is the file that runs the server
 
-#### templates/index.html
-#### static/css/style.css
-#### static/js/script.js
-
 ### Important commands:
 
 #### source ../bin/activate
@@ -26,3 +22,9 @@ Needs to be run whenever the conf file changes
 Lists the gunicorn processes
 #### kill <process_id>
 Shuts down the gunicorn server
+
+### Languages & tools
+#### HTML
+#### CSS
+#### Bootstrap 
+#### JavaScript
