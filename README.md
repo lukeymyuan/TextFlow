@@ -1,3 +1,10 @@
+# TextFlow
+### Summary
+A general purpose web application for generating text from various sources (books, academic papers, tweets, facebook posts, and reddit posts). The text will match the semantic style of the author(s) selected by the user using markov chain text generation techniques.
+
+### Demo
+<https://www.youtube.com/watch?v=tTQXbw1gR-o>
+
 ### Important files:
 
 #### app.py
@@ -9,7 +16,7 @@ This is the file that contains the python code for the Markov text generation al
 	length:  The number of words to generate
 	lookback:  The number of words used as a key to "predict" the following word
 
-=======
+
 ### Important commands:
 
 #### source ../bin/activate
@@ -31,7 +38,4 @@ Lists the gunicorn processes
 Shuts down the gunicorn server
 
 ### Languages & tools
-#### HTML
-#### CSS
-#### Bootstrap
-#### JavaScript
+Python flask, HTML, CSS, Bootstrap, JavaScript, jQuery, SQLite
