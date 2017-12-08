@@ -1,0 +1,109 @@
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background: url('../img/admin_bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6, .text-heading {
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+
+h4 {
+  font-size: 0.3em;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 2em;
+  margin-left: 16px;
+  padding: 0;
+}
+
+label {
+  font-size: 1em;
+  margin: 0;
+  margin-left: 16px;
+  padding: 0;
+}
+
+.slider {
+  width: 60%;
+  height: 15px;
+  margin: 20px 0 20px 10px;
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;    
+  background-color: #4CDD50; /* Grey background */
+  outline: none; /* Remove outline */
+  border-radius: 10px; 
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: green; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+.tagline-upper {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.tagline-lower {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.text-expanded {
+  letter-spacing: 2px;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text-lg {
+  font-size: 1.25rem;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+hr.divider {
+  border-color: #292b2c;
+  max-width: 250px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}

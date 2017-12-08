@@ -3,11 +3,18 @@
 #### app.py
 This is the file that runs the server
 
+#### markov_final.py
+This is the file that contains the python code for the Markov text generation algorithm.  The function takes the following three arguments:
+	source:  The input text source that the generated text will be generated from
+	length:  The number of words to generate
+	lookback:  The number of words used as a key to "predict" the following word
+
+=======
 ### Important commands:
 
 #### source ../bin/activate
 
-This starts the virtual environment. 
+This starts the virtual environment.
 
 #### gunicorn --bind 0.0.0.0:8080 app:app &
 Runs the gunicorn server
@@ -26,5 +33,5 @@ Shuts down the gunicorn server
 ### Languages & tools
 #### HTML
 #### CSS
-#### Bootstrap 
+#### Bootstrap
 #### JavaScript

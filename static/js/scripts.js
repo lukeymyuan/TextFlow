@@ -1,6 +1,9 @@
+
+/*
 console.log("js file loaded");
 $(document).ready(function(){
     console.log("Jquery loaded");
+    
     $("#generate").click(function(e){
 
 	query = {
@@ -9,8 +12,12 @@ $(document).ready(function(){
 	    'time':   $("#timeInput").val(),
 	    'length': $("#lengthInput").val()
 	}
-	$.post('/query_db', query, function(response){console.log(response);});
+	$.post('/query_db', query, function(response){
+	    console.log(response);
+	    $("#generated-text").val(response);
+	});
 	return false;
     });
 
 });
+*/

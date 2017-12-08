@@ -1,6 +1,0 @@
-$(document).ready(function(){
-    $("#generate").click(function(e){
-	console.log("Clicked");
-    });
-
-}
