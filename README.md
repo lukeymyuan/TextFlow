@@ -39,3 +39,6 @@ Shuts down the gunicorn server
 
 ### Languages & tools
 Python flask, HTML, CSS, Bootstrap, JavaScript, jQuery, SQLite
+
+
+![alt text](Capture.JPG)
